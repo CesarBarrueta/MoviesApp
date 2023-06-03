@@ -1,5 +1,4 @@
 import { StyleSheet, View } from 'react-native'
-import React, { useState } from 'react'
 import { TextInput, Button } from 'react-native-paper'
 import formStyle from '../styles/form'
 import { useFormik } from 'formik'
@@ -8,8 +7,12 @@ import {loginApi} from '../api/user'
 import Toast from 'react-native-root-toast'
 import { render } from 'react';
 import useAuth from '../hooks/useAuth'
+import { useTheme } from 'react-native-paper';
+
+
 
 export default function LoginForm(props) {
+  const theme = useTheme()
   const {changeForm} = props
   const {login} = useAuth()
 
@@ -51,7 +54,7 @@ export default function LoginForm(props) {
   }
 
 return (
-  <View>
+  <View style={formStyle.container}>
 
     <TextInput
       label='E-mail' 

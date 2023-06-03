@@ -1,1 +1,5 @@
-export const API_URL = 'http://34.148.193.74:1337'
+export const API_URL = 'http://35.237.137.186:1337'
+export const API_MOVIES_URL = 'https://api.themoviedb.org/3/'
+export  const API_KEY = 'a8f1c7a1baf0764e7120c821c0daabf3'
+export const POSTER_URL = 'https://image.tmdb.org/t/p/original'
+export const API_URL_LIST = 'http://35.237.137.186:1337'

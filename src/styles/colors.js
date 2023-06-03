@@ -1,8 +1,8 @@
 const colors = {
-    primary: '#0038',
+    primary: '#2BD9FE',
     dark: '#000',
     fontLight: '#fff',
-    bgDark: '#16222b'
+    bgDark: '#2BD9FE'
 }
 
 export default colors;
